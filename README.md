@@ -1,2 +1,2 @@
 # keyboard
-v 0.8
+v 1.0
