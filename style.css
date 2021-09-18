@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+}
+
+.active {
+  background: orange;
+}
+
+.hide {
+  display: none;
+}
+
+.keyboard {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  width: 827px;
+}
+
+.line::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.key {
+  box-shadow: -4px -1px 10px -5px #000000;
+  /* box-shadow: -3px 0px 22px -17px #000000 inset;   */
+  float: left;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 4px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.key:hover {
+  color: #fff;
+  background: rgb(179, 179, 179);
+}
+
+.backspace {
+  width: 90px;
+}
+.Tab {
+  width: 70px;
+  font-size: 9px;
+ 
+}
+.capslock {
+  width: 90px;
+  font-size: 9px;
+}
+.shiftLeft,
+.shiftRight {
+  width: 120px;
+}
+.controlLeft,
+.controlRight {
+  width: 93px;
+}
+.meta {
+  width: 50px;
+}
+.altLeft,
+.altRight {
+  width: 50px;
+}
+.fn {
+  width: 76px;
+}
+.enter {
+  position: absolute;
+  right: 8px;
+  width: 40px;
+  height: 96px;
+  line-height: 100%;
+  font-size: 9px;
+}
+.space {
+  width: 305px;
+}
+.letter-key {
+  line-height: 300%;
+  font-size: 9px;
+}
+
+.activeKeyboard {
+  box-shadow: inset 1px 1px 50px 9px #64f5ff;
+}
+
+.meta > img:nth-child(1),.fn > img:nth-child(1){
+  padding: 7px;
+}
+.enter > img:nth-child(3){
+  margin-top: 20px;
+}
