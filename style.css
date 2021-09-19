@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  font-size: 9px;
 }
 
 .active {
@@ -10,6 +11,19 @@
   display: none;
 }
 
+.i-1 {
+  position: relative;
+  margin: 0 auto;
+  left: 400px;
+  height: 20px;
+  width: 370px;
+  top: 150px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+
+
 .keyboard {
   margin-left: auto;
   margin-right: auto;
@@ -18,6 +32,7 @@
   border-radius: 10px;
   position: relative;
   width: 827px;
+  top: 200px;
 }
 
 .line::after {
@@ -40,6 +55,7 @@
   text-transform: uppercase;
   text-align: center;
 }
+
 .key:hover {
   color: #fff;
   background: rgb(179, 179, 179);
@@ -48,56 +64,66 @@
 .backspace {
   width: 90px;
 }
+
 .Tab {
   width: 70px;
-  font-size: 9px;
- 
+
 }
+
 .capslock {
   width: 90px;
-  font-size: 9px;
 }
+
 .shiftLeft,
 .shiftRight {
   width: 120px;
 }
+
 .controlLeft,
 .controlRight {
   width: 93px;
 }
+
 .meta {
   width: 50px;
 }
+
 .altLeft,
 .altRight {
   width: 50px;
 }
+
 .fn {
   width: 76px;
 }
+
 .enter {
   position: absolute;
   right: 8px;
   width: 40px;
   height: 96px;
   line-height: 100%;
-  font-size: 9px;
+
 }
+
 .space {
   width: 305px;
 }
+
 .letter-key {
   line-height: 300%;
-  font-size: 9px;
+
 }
 
 .activeKeyboard {
   box-shadow: inset 1px 1px 50px 9px #64f5ff;
 }
 
-.meta > img:nth-child(1),.fn > img:nth-child(1){
+.meta>img:nth-child(1),
+.fn>img:nth-child(1) {
   padding: 7px;
 }
-.enter > img:nth-child(3){
-  margin-top: 20px;
+
+.enter>img:nth-child(1) {
+  margin-top: 40px;
 }
